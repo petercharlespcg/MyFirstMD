@@ -12,6 +12,7 @@ import {DpDatePickerModule} from 'ng2-date-picker';
 import { FormsModule } from '@angular/forms';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { CardsComponent } from './components/cards/cards.component';
+import { FormsComponent } from './components/forms/forms.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { CardsComponent } from './components/cards/cards.component';
     HeaderComponent,
     HomeComponent,
     ButtonsComponent,
-    CardsComponent
+    CardsComponent,
+    FormsComponent
   ],
   imports: [
     BrowserModule,
