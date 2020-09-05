@@ -47,6 +47,9 @@ export class FormsComponent implements OnInit {
     this.task.subtasks.forEach(t => t.completed = completed);
   }
 
+  favoriteSeason: string;
+  seasons: string[] = ['Winter', 'Spring', 'Summer', 'Autumn'];
+
   constructor() { }
 
   ngOnInit(): void {
